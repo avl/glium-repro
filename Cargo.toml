@@ -1,0 +1,13 @@
+[package]
+name = "glium-repro"
+version = "0.1.0"
+edition = "2021"
+
+[profile.dev.package."*"]
+opt-level = 2
+
+[dependencies]
+glium = { version = "0.31" }
+rand  = "*"
+#winit = "0.29.15"
+#glutin="*"
